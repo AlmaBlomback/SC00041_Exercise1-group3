@@ -1,19 +1,34 @@
-My_file = "/home/user/Desktop/sample.txt" 
+def uppercase_counter(filename):
 
-print("Line\tChars\tUppercase\t% Upper")
+    # Run uppercase_counter("sample.txt") to use the test data set. 
 
-f = open(My_file)
-i = 1
-for l in f:
-    total = len(l.strip())
-    upper = 0
-    for c in l:
-        if c.isupper():
-            upper += 1
-    if total != 0:
-        p = upper / total * 100
-    else:
-        p = 0
-    print(str(i) + "\t" + str(total) + "\t" + str(upper) + "\t" + str(round(p, 2)) + "%")
-    i += 1
+    print("Line\tChars\tUppercase\t% Upper") # Print table header.
+
+    file = open(My_file)
+
+    linenumber = 1
+
+    for l in file: # Iterate over each line in the text file.
+
+        total = len(l.strip())
+
+        uppercase = 0 # Variable for counting the number of upper case letters.
+
+        for c in l: # Iterate over each letter in the line. 
+
+            if c.isupper():
+
+                uppercase += 1
+
+        if total != 0:
+
+            p = uppercase / total * 100
+
+        else:
+
+            p = 0
+
+        print(str(linenumber) + "\t" + str(total) + "\t" + str(uppercase) + "\t" + str(round(p, 2)) + "%")
+
+        linenumber += 1
 
