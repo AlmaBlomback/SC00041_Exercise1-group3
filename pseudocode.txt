@@ -1,0 +1,55 @@
+#### Exercise 1 ####
+
+# Input food price
+
+# Input drink price
+
+# Input tip
+
+# Calculate total before tip
+
+# Calculate total after tip
+
+# Print total before tip
+
+# Print tip amount
+
+# Print final total in format "The bill is .... SEK."
+
+
+#### Exercise 2 ####
+
+# Input list of 4 assigments
+
+# Calculate total assigment score
+
+# Calculate average assigment score
+
+# Print total assigment score
+
+# Print average assigment score
+
+# Print preformance message: pass if average assigment score is above 50, else fail.
+
+#### Exercise 3 ####
+
+# Input list of 3 test scores
+
+# Calculate average test score
+
+# Calculate final grade based on the average test score
+
+# Print test score 1
+
+# Print test score 2
+
+# Print test score 3
+
+# Print average test score
+
+# Print final grade
+
+# If any test score is below 40 print a warning message
+
+
+
