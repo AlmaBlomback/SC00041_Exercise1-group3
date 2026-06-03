@@ -4,7 +4,7 @@ def uppercase_counter(filename):
 
     print("Line\tChars\tUppercase\t% Upper") # Print table header.
 
-    file = open(My_file)
+    file = open(filename)
 
     linenumber = 1
 
@@ -31,4 +31,6 @@ def uppercase_counter(filename):
         print(str(linenumber) + "\t" + str(total) + "\t" + str(uppercase) + "\t" + str(round(p, 2)) + "%")
 
         linenumber += 1
+
+uppercase_counter("sample.txt")
 
